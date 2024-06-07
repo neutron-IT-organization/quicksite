@@ -1,0 +1,20 @@
+site_name: Mon site github pages
+theme:
+ name: material
+ features:
+   - navigation.tabs
+   - navigation.indexes
+ logo: assets/logo.png
+plugins:
+ - search
+repo_url: https://github.com/neutron-IT-organization/quicksite
+repo_name: neutron-IT-organization/quicksite
+docs_dir: content
+markdown_extensions:
+ - toc:
+     toc_depth: "2-3"
+nav:
+ - 'Part 1':
+     - part1.md
+ - 'Part 2':
+     - part2.md
